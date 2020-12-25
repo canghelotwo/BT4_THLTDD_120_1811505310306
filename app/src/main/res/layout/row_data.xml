@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/ip4"/>
+
+        <TextView
+            android:id="@+id/idip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="IPhone 4"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idgia"
+            android:layout_below="@+id/idip"
+            android:text="450.000 ₫"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
